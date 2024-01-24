@@ -1,0 +1,91 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100vw;
+    max-height: 100vh;
+  }
+  body{
+    background-color: #111111;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  #container{
+    width: 90%;
+    margin: 5%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3%;
+    transition: flex-wrap 0.5s ease;
+  }
+  .element{
+    width: 300px;
+    height: 250px;
+    background-color: #000;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s all;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .element:hover{
+    width: 330px;
+    height: 280px;
+  }
+  .element:hover p{
+    display: block;
+  }
+  .element p{
+    font-size: 2rem;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    display: none;
+    transition: 0.5s all;
+  }
+  #first{
+    background-image: url(day1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #second{
+    background-image: url(day2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #third{
+    background-image: url(day3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #fourth{
+    background-image: url(day4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #fifth{
+    background-image: url(day5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #sixth{
+    background-image: url(day6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #seventh{
+    background-image: url(day7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #eight{
+    background-image: url(day8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
